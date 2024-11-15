@@ -65,8 +65,8 @@ The primary function `fuse_images` in this repository takes two input images and
 ```matlab
 function fused_image = fuse_images(image1_path, image2_path)
     % Load images
-    img1 = imread(image1_path);
-    img2 = imread(image2_path);
+    img1 = imread(infrared);
+    img2 = imread(image);
 
     % Perform Gaussian elimination for blending
     % (Implementation here for matrix blending)
